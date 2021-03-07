@@ -47,4 +47,8 @@ export const AddCart = styled.div`
 
   height: ${pxToRem(40)};
   border-radius: ${pxToRem(5)};
+
+  :hover{
+    opacity: 0.85;
+  }
 `;

@@ -9,9 +9,10 @@ interface props {
   price: number;
   score: number;
   image: string;
+  addcart: () => void;
 }
 
-const Card: React.FC<props> = ({ id, name, price, score, image }) => {
+const Card: React.FC<props> = ({ id, name, price, score, image, addcart }) => {
 
 
   return (
@@ -21,7 +22,7 @@ const Card: React.FC<props> = ({ id, name, price, score, image }) => {
       </Image>
       <Name>{name}</Name>
       <Price>Valor : R${price}</Price>
-      <AddCart>Adicionar ao carrinho</AddCart>
+      <AddCart onClick={addcart}>Adicionar ao carrinho</AddCart>
     </Container>
   );
 };
