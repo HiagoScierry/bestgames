@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: ${background};
     color: ${text};
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto' , sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
   }

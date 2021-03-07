@@ -5,7 +5,7 @@ import {
   Github as _Github,
   Linkedin as _Linkedin,
   Search as _Search,
-} from "src/utils";
+} from "../../utils";
 
 const primary = colors.primary;
 const white = colors.white;

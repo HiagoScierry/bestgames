@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-import { pxToRem } from "../../utils";
+import { colors, pxToRem } from "../../utils";
+
+const background = colors.greyBackground;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: ${pxToRem(1440)};
-  height: 100vh;
 `;
 
 export const Body = styled.div`
@@ -15,10 +16,15 @@ export const Body = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: ${pxToRem(1440)};
-  height: 90vh;
+  height: auto;
+  background-color: ${background};
 `;
 
-export const Cards = styled.div``
+export const Cards = styled.div`
+  width: 50%;
 
-export const Cart = styled.div``
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+`;
 
+export const Cart = styled.div``;
