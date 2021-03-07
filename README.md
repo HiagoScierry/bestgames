@@ -1,7 +1,7 @@
-#React Challenge
+# React Challenge
 O desafio consiste em construir a interface de um ecommerce de games utilizando React Web.
 
-##Requisitos
+## Requisitos
 - Os produtos devem ser renderizados dinamicamente através do products.json anexado, assets.zip anexados também
 - Os valores exibidos no checkout (frete, subtotal e total) devem ser calculados dinamicamente
 - O usuário poderá adicionar e remover produtos do carrinho
